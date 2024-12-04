@@ -1,9 +1,6 @@
 <template>
-    <v-container class="justify-center">
-        <v-card
-            height="100%"
-            width="500px"
-        >
+    <v-container width="30%">
+        <v-card height="100%">
             <template #title>
                 <p class="mb-3">Day {{ day }}</p>
             </template>

@@ -1,6 +1,7 @@
 import pluginVue from "eslint-plugin-vue";
 import vueTsEslintConfig from "@vue/eslint-config-typescript";
 import skipFormatting from "@vue/eslint-config-prettier/skip-formatting";
+import stylistic from "@stylistic/eslint-plugin";
 
 export default [
     {
@@ -24,6 +25,7 @@ export default [
             "vue/no-template-shadow": ["error", { allow: ["props"] }],
 
             // stylistic
+            "stylistic/js/multiline-ternary": ["warn", "always"],
             "newline-per-chained-call": ["warn"],
             "arrow-body-style": ["warn", "as-needed"],
             "func-style": ["error", "declaration"],

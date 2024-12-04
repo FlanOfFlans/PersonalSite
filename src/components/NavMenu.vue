@@ -1,8 +1,5 @@
 <template>
-    <v-row
-        v-for="option in options"
-        class="border-e-md border-b-md"
-    >
+    <v-row v-for="option in options">
         <v-col class="justify-center d-flex pa-0">
             <v-btn
                 @click="linkTo(option.link)"

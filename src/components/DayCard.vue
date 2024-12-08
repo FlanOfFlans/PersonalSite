@@ -15,8 +15,8 @@
                         rows="10"
                     />
                 </v-row>
-                <v-row v-visible="result1"> {{ day }}-1 Result: {{ result1 }} </v-row>
-                <v-row v-visible="result2"> {{ day }}-2 Result: {{ result2 }} </v-row>
+                <v-row v-visible="showResult(result1)"> {{ day }}-1 Result: {{ result1 }} </v-row>
+                <v-row v-visible="showResult(result2)"> {{ day }}-2 Result: {{ result2 }} </v-row>
             </template>
             <template #actions>
                 <v-spacer />
@@ -45,5 +45,9 @@ function solve() {
     if (props.puzzleSolution2) {
         result2.value = props.puzzleSolution2(puzzleInput.value);
     }
+}
+
+function showResult(result: number | undefined) {
+    return result !== undefined && !Number.isNaN(result);
 }
 </script>

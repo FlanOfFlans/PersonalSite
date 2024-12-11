@@ -1,15 +1,13 @@
 <template>
     <DayCard
-        :day="4"
+        :day="6"
         :test-input="testInput"
         :puzzle-solution-1="solvePuzzle1"
         :puzzle-solution-2="solvePuzzle2"
     />
 </template>
 <script setup lang="ts">
-import { routerViewLocationKey } from "vue-router";
 import DayCard from "../DayCard.vue";
-import { ref } from "vue";
 
 const dirs = ["^", ">", "V", "<"];
 

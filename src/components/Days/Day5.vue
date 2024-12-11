@@ -1,6 +1,6 @@
 <template>
     <DayCard
-        :day="4"
+        :day="5"
         :test-input="testInput"
         :puzzle-solution-1="solvePuzzle1"
         :puzzle-solution-2="solvePuzzle2"

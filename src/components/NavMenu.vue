@@ -50,6 +50,10 @@ const options = [
         title: "Day 7",
         link: "/aoc2024/days/7",
     },
+    {
+        title: "Day 8",
+        link: "/aoc2024/days/8",
+    },
 ];
 function linkTo(link: string) {
     router.push(link);

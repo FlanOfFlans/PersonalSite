@@ -8,13 +8,9 @@
 </template>
 <script setup lang="ts">
 import DayCard from "../DayCard.vue";
+import { Coord } from "@/utils";
 
 const dirs = ["^", ">", "V", "<"];
-
-type Coord = {
-    x: number;
-    y: number;
-};
 
 type PathResult = {
     tiles: number;

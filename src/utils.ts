@@ -9,3 +9,8 @@ export function linify(input: string): number[][] {
 
     return lines;
 }
+
+export type Coord = {
+    x: number;
+    y: number;
+};

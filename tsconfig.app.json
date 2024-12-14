@@ -8,6 +8,8 @@
         "allowImportingTsExtensions": true,
         "isolatedModules": true,
         "verbatimModuleSyntax": false,
+        "target": "ESNext",
+        "lib": ["ESNext"],
 
         "paths": {
             "@/*": ["./src/*"]

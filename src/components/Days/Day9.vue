@@ -68,8 +68,10 @@ function solvePuzzle2(input: string): number {
 
     fileId--;
 
+    let lastSwap = -1;
+
     for (fileId; fileId > -1; fileId--) {
-        const fileIndex = driveInfo.findLastIndex((v) => v.id == fileId);
+        const fileIndex = findLastIndexFrom(driveInfo, (v) => v.id == fileId, lastSwap);
 
         if (fileIndex == -1) {
             continue;
@@ -88,6 +90,8 @@ function solvePuzzle2(input: string): number {
         const next = driveInfo.at(fileIndex + 1);
         const prev = driveInfo.at(fileIndex - 1);
         const removeCount = 1 + (!!next ? 1 : 0) + (!!prev ? 1 : 0);
+
+        lastSwap = fileIndex;
 
         if (fileIndex - 1 == spaceIndex) {
             driveInfo.splice(

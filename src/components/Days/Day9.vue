@@ -8,13 +8,6 @@
 </template>
 <script setup lang="ts">
 import DayCard from "../DayCard.vue";
-import { Coord } from "../../utils";
-import { computed } from "vue";
-
-type DriveEntry = {
-    size: number;
-    id: number;
-};
 
 function solvePuzzle1(input: string): number {
     let drive = hydrateInput(input);

@@ -7,7 +7,6 @@
     />
 </template>
 <script setup lang="ts">
-import { toEditorSettings } from "typescript";
 import DayCard from "../DayCard.vue";
 import { Md5 } from "ts-md5";
 

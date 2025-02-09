@@ -65,6 +65,10 @@ const options = [
     {
         title: "Day 11",
         link: "/aoc2024/days/11"
+    },
+    {
+        title: "Day 12",
+        link: "/aoc2024/days/12"
     }
 ];
 function linkTo(link: string) {

@@ -15,6 +15,7 @@ import Day8 from "@/components/Days/Day8.vue";
 import Day9 from "@/components/Days/Day9.vue";
 import Day10 from "@/components/Days/Day10.vue";
 import Day11 from "@/components/Days/Day11.vue";
+import Day12 from "@/components/Days/Day12.vue";
 
 const route = useRoute();
 
@@ -22,5 +23,5 @@ var dayNum = computed(() =>
     parseInt(route.params.dayNum instanceof Array ? route.params.dayNum[0] : route.params.dayNum)
 );
 
-const days = [Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11];
+const days = [Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12];
 </script>

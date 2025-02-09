@@ -4,19 +4,19 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
-import Day1 from "@/components/Days/Day1.vue";
-import Day2 from "@/components/Days/Day2.vue";
-import Day3 from "@/components/Days/Day3.vue";
-import Day4 from "@/components/Days/Day4.vue";
-import Day5 from "@/components/Days/Day5.vue";
-import Day6 from "@/components/Days/Day6.vue";
-import Day7 from "@/components/Days/Day7.vue";
-import Day8 from "@/components/Days/Day8.vue";
-import Day9 from "@/components/Days/Day9.vue";
-import Day10 from "@/components/Days/Day10.vue";
-import Day11 from "@/components/Days/Day11.vue";
-import Day12 from "@/components/Days/Day12.vue";
-import Day13 from "@/components/Days/Day13.vue";
+import Day1 from "@/components/AOC/2024/Days/Day1.vue";
+import Day2 from "@/components/AOC/2024/Days/Day2.vue";
+import Day3 from "@/components/AOC/2024/Days/Day3.vue";
+import Day4 from "@/components/AOC/2024/Days/Day4.vue";
+import Day5 from "@/components/AOC/2024/Days/Day5.vue";
+import Day6 from "@/components/AOC/2024/Days/Day6.vue";
+import Day7 from "@/components/AOC/2024/Days/Day7.vue";
+import Day8 from "@/components/AOC/2024/Days/Day8.vue";
+import Day9 from "@/components/AOC/2024/Days/Day9.vue";
+import Day10 from "@/components/AOC/2024/Days/Day10.vue";
+import Day11 from "@/components/AOC/2024/Days/Day11.vue";
+import Day12 from "@/components/AOC/2024/Days/Day12.vue";
+import Day13 from "@/components/AOC/2024/Days/Day13.vue";
 
 const route = useRoute();
 

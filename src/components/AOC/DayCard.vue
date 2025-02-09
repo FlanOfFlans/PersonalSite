@@ -36,7 +36,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 
-var props = defineProps<{
+const props = defineProps<{
     day: number;
     testInput: string;
     puzzleSolution1: (input: string) => number;

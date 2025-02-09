@@ -8,7 +8,7 @@
     <v-row class="justify-center"> Heads up--this one is slow! (~30 second runtime) </v-row>
 </template>
 <script setup lang="ts">
-import DayCard from "../DayCard.vue";
+import DayCard from "@c/AOC/DayCard.vue";
 
 enum Operators {
     Add,

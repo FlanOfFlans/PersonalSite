@@ -7,8 +7,8 @@
     />
 </template>
 <script setup lang="ts">
-import DayCard from "../DayCard.vue";
-import { Coord } from "@/utils";
+import DayCard from "@c/AOC/DayCard.vue";
+import { Coord } from "@/components/AOC/utils";
 
 const dirs = ["^", ">", "V", "<"];
 

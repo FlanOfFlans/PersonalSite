@@ -7,8 +7,8 @@
     />
 </template>
 <script setup lang="ts">
-import DayCard from "../DayCard.vue";
-import { linify } from "@/utils";
+import DayCard from "@c/AOC/DayCard.vue";
+import { linify } from "@/components/AOC/utils";
 import { ref } from "vue";
 
 function solvePuzzle1(input: string): number {

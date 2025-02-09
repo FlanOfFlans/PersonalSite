@@ -10,9 +10,9 @@
         "verbatimModuleSyntax": false,
         "target": "ESNext",
         "lib": ["ESNext", "DOM"],
-
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["./src/*"],
+            "@c/*": ["./src/components/*"]
         }
     }
 }

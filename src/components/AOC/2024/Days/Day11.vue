@@ -7,7 +7,7 @@
     />
 </template>
 <script setup lang="ts">
-import DayCard from "../DayCard.vue";
+import DayCard from "@c/AOC/DayCard.vue";
 import { Md5 } from "ts-md5";
 
 function solvePuzzle1(input: string): number {

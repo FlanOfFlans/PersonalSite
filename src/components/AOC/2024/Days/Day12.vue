@@ -7,8 +7,8 @@
     />
 </template>
 <script setup lang="ts">
-import DayCard from "../DayCard.vue";
-import { Coord, getAdjacentCells } from "@/utils";
+import DayCard from "@c/AOC/DayCard.vue";
+import { Coord, getAdjacentCells } from "@/components/AOC/utils";
 
 type PlotNode = {
     type: string;

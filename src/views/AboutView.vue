@@ -1,5 +1,5 @@
 <template>
-    <v-container width="30%">
+    <v-container min-width="400" max-width="600">
         <v-card>
 
             <template #title> Hello! </template>

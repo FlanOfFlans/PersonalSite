@@ -35,3 +35,9 @@ export function getAdjacentCells<T>(grid: T[][], coord: Coord): {value: T, coord
     cells = [left, right, up, down].filter(n => n?.value != undefined) as {value: T, coord: Coord}[];
     return cells;
 }
+
+// % operator provides remainder, not modulo
+// This gives correct results over negative numbers
+export function mod(n: number, m: number) {
+    return ((n % m) + m) % m;
+}

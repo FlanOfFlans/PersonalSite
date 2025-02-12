@@ -111,6 +111,11 @@ const options = [
                         id: "aoc2024Day14",
                         title: "Day 14",
                         to: "/aoc2024/days/14"
+                    },
+                    {
+                        id: "aoc2024day15",
+                        title: "Day 15",
+                        to: "/aoc2024/days/15"
                     }
                 ]
             }

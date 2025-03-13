@@ -1,0 +1,24 @@
+media:
+  input: src/cms/media
+  output: cms/media
+content:
+  - name: posts
+    label: Posts
+    path: src/cms/content/posts
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        
+      - name: date
+        label: Publication Date
+        type: date
+        required: true
+
+      - name: body
+        label: Body
+        type: string
+        required: true
+      

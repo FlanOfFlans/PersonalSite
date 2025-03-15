@@ -21,4 +21,9 @@ content:
         label: Body
         type: rich-text
         required: true
-      
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        required: false

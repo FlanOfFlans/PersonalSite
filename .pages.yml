@@ -15,8 +15,9 @@ content:
       - name: date
         label: Publication Date
         type: date
-        time: true
         required: true
+        options:
+          time: true
 
       - name: body
         label: Body

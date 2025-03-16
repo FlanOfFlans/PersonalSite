@@ -1,10 +1,10 @@
 media:
-  input: src/cms/media
-  output: cms/media
+  input: public/cms/media
+  output: public/media
 content:
   - name: posts
     label: Posts
-    path: src/cms/content/posts
+    path: public/cms/content/posts
     type: collection
     fields:
       - name: title

@@ -15,6 +15,7 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@stylistic/eslint-plugin": "^2.11.0",
+    "axios": "^1.8.3",
     "jshashes": "^1.0.8",
     "just-memoize": "^2.2.0",
     "sass-embedded": "^1.81.0",

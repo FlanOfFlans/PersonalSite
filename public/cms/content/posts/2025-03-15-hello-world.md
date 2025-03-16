@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-date: 2025-03-15
+date: 2025-03-15T22:23
 tags:
   - tech
   - meta

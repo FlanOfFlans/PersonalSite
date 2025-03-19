@@ -43,6 +43,9 @@ export default defineConfig(({ command, mode }) => { return {
             "@c": fileURLToPath(new URL("./src/components", import.meta.url)),
         },
     },
+    build: {
+        commonjsOptions: { transformMixedEsModules: true}
+    },
     server: {
         port: 5000,
     },

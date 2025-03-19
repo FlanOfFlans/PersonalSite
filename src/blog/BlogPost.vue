@@ -4,11 +4,11 @@
     elevation="5"
     height="100%"
     width="65%"
-    class="pa-2"
+    class="pa-3"
 >
     <div v-if="post != null">
-        <h3 class="test">{{ post.title }}</h3>
-        <v-divider :thickness = "3" class="mb-1"/>
+        <h2 class="test">{{ post.title }}</h2>
+        <v-divider :thickness = "3" class="mb-1 mt-n2"/>
         <div v-html="renderedBody" class="markdown"></div>
     </div>
     <div v-else class="text-disabled">
@@ -20,9 +20,11 @@
 import { useBlogStore } from './blogStore';
 import { computed, onMounted } from 'vue';
 import markdownit from 'markdown-it';
+import markdownit_highlights from 'markdown-it-highlightjs';
+import 'highlight.js/styles/github-dark.min.css';
 
 const store = useBlogStore();
-const md = markdownit();
+const md = new markdownit().use(markdownit_highlights);
 const props = defineProps<{
     postName: string;
 }>();
@@ -36,6 +38,14 @@ onMounted(() => {
 </script>
 <style lang="scss" scoped>
 .markdown ::v-deep p {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.markdown ::v-deep pre {
+    margin-bottom: 12px;
+}
+
+.markdown ::v-deep li {
+    margin-left: 20px;
 }
 </style>

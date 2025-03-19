@@ -38,7 +38,7 @@ const darkTheme: ThemeDefinition = {
     colors: {
         background: "#121212",
         surface: "#222222",
-        codeblock: "#2b2d31",
+        codeblock: "#181818",
         primary: "#976cde",
         secondary: "#949494",
         error: "#ff1f1f",

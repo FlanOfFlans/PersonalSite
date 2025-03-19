@@ -25,6 +25,7 @@ const lightTheme: ThemeDefinition = {
         surface: "#ffffff",
         primary: "#6002EE",
         secondary: "#6C6C6C",
+        codeblock: "FF0000", // TODO set codeblock to a real value when you implement light theme
         error: "#ff1f1f",
         success: "#09af00",
         info: "#021aee",
@@ -37,6 +38,7 @@ const darkTheme: ThemeDefinition = {
     colors: {
         background: "#121212",
         surface: "#222222",
+        codeblock: "#2b2d31",
         primary: "#976cde",
         secondary: "#949494",
         error: "#ff1f1f",

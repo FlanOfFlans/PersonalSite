@@ -1,6 +1,8 @@
 <template>
-<div v-for="postName in postNames" class="d-flex justify-center">
-    <BlogPost :postName/> 
+<div class="ga-4">
+    <v-container v-for="postName in postNames" class="d-flex justify-center">
+        <BlogPost :postName/> 
+    </v-container>
 </div>
 </template>
 <script setup lang="ts">

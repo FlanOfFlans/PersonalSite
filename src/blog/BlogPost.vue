@@ -20,11 +20,20 @@
 import { useBlogStore } from './blogStore';
 import { computed, onMounted } from 'vue';
 import markdownit from 'markdown-it';
-import markdownit_highlights from 'markdown-it-highlightjs';
-import 'highlight.js/styles/github-dark.min.css';
+import hljs from 'highlight.js';
 
 const store = useBlogStore();
-const md = new markdownit().use(markdownit_highlights);
+const md = new markdownit()
+    .set({
+        highlight: function (str, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+                try {
+                    return hljs.highlight(str, { language: lang }).value;
+                } catch {}
+            }
+
+            return str;
+    }});
 const props = defineProps<{
     postName: string;
 }>();
@@ -43,6 +52,9 @@ onMounted(() => {
 
 .markdown ::v-deep pre {
     margin-bottom: 12px;
+    background-color: rgb(var(--v-theme-codeblock));
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .markdown ::v-deep li {

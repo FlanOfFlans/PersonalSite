@@ -1,17 +1,4 @@
 <template>
-    <!-- <v-row v-for="option in options">
-        <v-col class="justify-center d-flex pa-0">
-            <v-btn
-                @click="linkTo(option.link)"
-                :block="true"
-                size="x-large"
-            >
-                <div class="text-h6">
-                    {{ option.title }}
-                </div>
-            </v-btn>
-        </v-col>
-    </v-row> -->
     <v-navigation-drawer v-model="model" name="nav-menu" temporary>
         <v-list nav>
             <NavGroup
@@ -28,6 +15,11 @@ import NavGroup from "@c/NavGroup.vue";
 
 const router = useRouter();
 const options = [
+    {
+        id: "blog",
+        title: "Blog",
+        to: "/blog"
+    },
     {
         id: "aoc",
         title: "Advent of Code",

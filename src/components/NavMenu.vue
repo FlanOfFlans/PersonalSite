@@ -16,6 +16,11 @@ import NavGroup from "@c/NavGroup.vue";
 const router = useRouter();
 const options = [
     {
+        id: "blog",
+        title: "Blog",
+        to: "/blog"
+    },
+    {
         id: "aoc",
         title: "Advent of Code",
         icon: "mdi-pine-tree",

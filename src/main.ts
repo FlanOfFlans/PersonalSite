@@ -10,6 +10,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "vuetify/lib/styles/main.sass";
+import { createPinia } from "pinia";
 
 const app = createApp(App);
 
@@ -69,6 +70,11 @@ const vuetify = createVuetify({
     },
 });
 
-app.use(router).use(vuetify);
+const pinia = createPinia();
+
+app
+    .use(router)
+    .use(vuetify)
+    .use(pinia);
 
 app.mount("#app");

@@ -1,4 +1,5 @@
 <template>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark-dimmed.css">
 <v-sheet
     rounded
     elevation="5"
@@ -20,7 +21,9 @@
 import { useBlogStore } from './blogStore';
 import { computed, onMounted } from 'vue';
 import markdownit from 'markdown-it';
-import hljs from 'highlight.js';
+// Highlight JS doesn't include type defs for CDN assets, and we don't need them
+// @ts-ignore
+import hljs from 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/es/highlight.min.js';
 
 const store = useBlogStore();
 const md = new markdownit()

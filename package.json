@@ -30,6 +30,7 @@
         "vite-plugin-commonjs": "^0.10.4",
         "vue": "^3.5.13",
         "vue-router": "^4.4.5",
+        "vuedraggable": "^4.1.0",
         "vuetify": "^3.7.4",
         "yaml-front-matter": "^4.1.1"
     },

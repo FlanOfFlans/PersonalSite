@@ -32,7 +32,6 @@ export default tseslint.config(
             "vue/no-template-shadow": ["error", { allow: ["props"] }],
 
             // stylistic
-            "@stylistic/multiline-ternary": ["warn", "always"],
             "newline-per-chained-call": ["warn"],
             "arrow-body-style": ["warn", "as-needed"],
             "func-style": ["error", "declaration"],

@@ -23,6 +23,7 @@
     "jshashes": "^1.0.8",
     "just-memoize": "^2.2.0",
     "markdown-it": "^14.1.0",
+    "papaparse": "^5.5.3",
     "pinia": "^3.0.1",
     "requirejs": "^2.3.7",
     "sass-embedded": "^1.81.0",

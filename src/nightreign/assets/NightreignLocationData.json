@@ -1,0 +1,674 @@
+[
+ {
+   "name": "West Stormhill Graveyard",
+   "type": "Circle",
+   "xRaw": 330,
+   "yRaw": 618,
+   "xPercent": 21.484375,
+   "yPercent": 40.234375
+ },
+ {
+   "name": "Northwest Corner",
+   "type": "Circle",
+   "xRaw": 331,
+   "yRaw": 321,
+   "xPercent": 21.54947917,
+   "yPercent": 20.8984375
+ },
+ {
+   "name": "Southwest Corner",
+   "type": "Circle",
+   "xRaw": 409,
+   "yRaw": 1157,
+   "xPercent": 26.62760417,
+   "yPercent": 75.32552083
+ },
+ {
+   "name": "East of Saintsbridge",
+   "type": "Circle",
+   "xRaw": 865,
+   "yRaw": 406,
+   "xPercent": 56.31510417,
+   "yPercent": 26.43229167
+ },
+ {
+   "name": "Northeast Corner",
+   "type": "Circle",
+   "xRaw": 1235,
+   "yRaw": 366,
+   "xPercent": 80.40364583,
+   "yPercent": 23.828125
+ },
+ {
+   "name": "Northeast of Lake",
+   "type": "Circle",
+   "xRaw": 843,
+   "yRaw": 831,
+   "xPercent": 54.8828125,
+   "yPercent": 54.1015625
+ },
+ {
+   "name": "Northwest Mistwood Pond",
+   "type": "Circle",
+   "xRaw": 1105,
+   "yRaw": 815,
+   "xPercent": 71.94010417,
+   "yPercent": 53.05989583
+ },
+ {
+   "name": "Southwest Mistwood",
+   "type": "Circle",
+   "xRaw": 1065,
+   "yRaw": 1055,
+   "xPercent": 69.3359375,
+   "yPercent": 68.68489583
+ },
+ {
+   "name": "Northwest Lake",
+   "type": "Circle",
+   "xRaw": 566,
+   "yRaw": 1063,
+   "xPercent": 36.84895833,
+   "yPercent": 69.20572917
+ },
+ {
+   "name": "South Lake Circle",
+   "type": "Circle",
+   "xRaw": 730,
+   "yRaw": 1181,
+   "xPercent": 47.52604167,
+   "yPercent": 76.88802083
+ },
+ {
+   "name": "South of Castle",
+   "type": "Circle",
+   "xRaw": 656,
+   "yRaw": 953,
+   "xPercent": 42.70833333,
+   "yPercent": 62.04427083
+ },
+ {
+   "name": "Northwest of Castle",
+   "type": "Circle",
+   "xRaw": 556,
+   "yRaw": 702,
+   "xPercent": 36.19791667,
+   "yPercent": 45.703125
+ },
+ {
+   "name": "Southeast Mountaintop",
+   "type": "Circle",
+   "xRaw": 614,
+   "yRaw": 605,
+   "xPercent": 39.97395833,
+   "yPercent": 39.38802083
+ },
+ {
+   "name": "North of Crater",
+   "type": "Circle",
+   "xRaw": 728,
+   "yRaw": 289,
+   "xPercent": 47.39583333,
+   "yPercent": 18.81510417
+ },
+ {
+   "name": "Southeast Rotted Woods",
+   "type": "Circle",
+   "xRaw": 644,
+   "yRaw": 1060,
+   "xPercent": 41.92708333,
+   "yPercent": 69.01041667
+ },
+ {
+   "name": "Noklateo Entrance",
+   "type": "Circle",
+   "xRaw": 677,
+   "yRaw": 854,
+   "xPercent": 44.07552083,
+   "yPercent": 55.59895833
+ },
+ {
+   "name": "Northwest Rotted Woods",
+   "type": "Circle",
+   "xRaw": 1121,
+   "yRaw": 837,
+   "xPercent": 72.98177083,
+   "yPercent": 54.4921875
+ },
+ {
+   "name": "East of Cavalry Bridge Spawn",
+   "type": "Spawn",
+   "xRaw": 841,
+   "yRaw": 975,
+   "xPercent": 54.75260417,
+   "yPercent": 63.4765625
+ },
+ {
+   "name": "Above Stormhill Tunnel Entrance Spawn",
+   "type": "Spawn",
+   "xRaw": 558,
+   "yRaw": 613,
+   "xPercent": 36.328125,
+   "yPercent": 39.90885417
+ },
+ {
+   "name": "Stormhill South of Gate Spawn",
+   "type": "Spawn",
+   "xRaw": 324,
+   "yRaw": 827,
+   "xPercent": 21.09375,
+   "yPercent": 53.84114583
+ },
+ {
+   "name": "Below Summonwater Hawk Spawn",
+   "type": "Spawn",
+   "xRaw": 1066,
+   "yRaw": 561,
+   "xPercent": 69.40104167,
+   "yPercent": 36.5234375
+ },
+ {
+   "name": "Southeast of Lake Spawn",
+   "type": "Spawn",
+   "xRaw": 875,
+   "yRaw": 1225,
+   "xPercent": 56.96614583,
+   "yPercent": 79.75260417
+ },
+ {
+   "name": "Minor Erdtree",
+   "type": "Spawn",
+   "xRaw": 1243,
+   "yRaw": 868,
+   "xPercent": 80.92447917,
+   "yPercent": 56.51041667
+ },
+ {
+   "name": "Far Southwest Spawn",
+   "type": "Spawn",
+   "xRaw": 508,
+   "yRaw": 1074,
+   "xPercent": 33.07291667,
+   "yPercent": 69.921875
+ },
+ {
+   "name": "Northeast of Saintsbridge Spawn",
+   "type": "Spawn",
+   "xRaw": 830,
+   "yRaw": 324,
+   "xPercent": 54.03645833,
+   "yPercent": 21.09375
+ },
+ {
+   "name": "West of Warmaster's Shack Spawn",
+   "type": "Spawn",
+   "xRaw": 336,
+   "yRaw": 546,
+   "xPercent": 21.875,
+   "yPercent": 35.546875
+ },
+ {
+   "name": "South Lake",
+   "type": "MajorCamp",
+   "xRaw": 612,
+   "yRaw": 1222,
+   "xPercent": 39.84375,
+   "yPercent": 79.55729167
+ },
+ {
+   "name": "Groveside",
+   "type": "MajorCamp",
+   "xRaw": 420,
+   "yRaw": 1010,
+   "xPercent": 27.34375,
+   "yPercent": 65.75520833
+ },
+ {
+   "name": "Gatefront",
+   "type": "MajorCamp",
+   "xRaw": 490,
+   "yRaw": 852,
+   "xPercent": 31.90104167,
+   "yPercent": 55.46875
+ },
+ {
+   "name": "Stormhill North of Gate",
+   "type": "MajorCamp",
+   "xRaw": 441,
+   "yRaw": 693,
+   "xPercent": 28.7109375,
+   "yPercent": 45.1171875
+ },
+ {
+   "name": "Alexander Spot",
+   "type": "MajorCamp",
+   "xRaw": 640,
+   "yRaw": 465,
+   "xPercent": 41.66666667,
+   "yPercent": 30.2734375
+ },
+ {
+   "name": "Northwest Stormhill",
+   "type": "MajorCamp",
+   "xRaw": 355,
+   "yRaw": 440,
+   "xPercent": 23.11197917,
+   "yPercent": 28.64583333
+ },
+ {
+   "name": "Northeast Stormhill",
+   "type": "MajorCamp",
+   "xRaw": 615,
+   "yRaw": 288,
+   "xPercent": 40.0390625,
+   "yPercent": 18.75
+ },
+ {
+   "name": "South Mistwood",
+   "type": "MajorCamp",
+   "xRaw": 1141,
+   "yRaw": 1135,
+   "xPercent": 74.28385417,
+   "yPercent": 73.89322917
+ },
+ {
+   "name": "Waypoint Ruins",
+   "type": "MajorCamp",
+   "xRaw": 944,
+   "yRaw": 1064,
+   "xPercent": 61.45833333,
+   "yPercent": 69.27083333
+ },
+ {
+   "name": "Minor Erdtree West",
+   "type": "MajorCamp",
+   "xRaw": 1156,
+   "yRaw": 969,
+   "xPercent": 75.26041667,
+   "yPercent": 63.0859375
+ },
+ {
+   "name": "West Mistwood",
+   "type": "MajorCamp",
+   "xRaw": 968,
+   "yRaw": 913,
+   "xPercent": 63.02083333,
+   "yPercent": 59.44010417
+ },
+ {
+   "name": "Northwest Mistwood",
+   "type": "MajorCamp",
+   "xRaw": 1020,
+   "yRaw": 717,
+   "xPercent": 66.40625,
+   "yPercent": 46.6796875
+ },
+ {
+   "name": "Artist's Shack",
+   "type": "MajorCamp",
+   "xRaw": 892,
+   "yRaw": 660,
+   "xPercent": 58.07291667,
+   "yPercent": 42.96875
+ },
+ {
+   "name": "Northeast Mistwood",
+   "type": "MajorCamp",
+   "xRaw": 1186,
+   "yRaw": 654,
+   "xPercent": 77.21354167,
+   "yPercent": 42.578125
+ },
+ {
+   "name": "Summonwater Approach",
+   "type": "MajorCamp",
+   "xRaw": 967,
+   "yRaw": 455,
+   "xPercent": 62.95572917,
+   "yPercent": 29.62239583
+ },
+ {
+   "name": "Summonwater",
+   "type": "MajorCamp",
+   "xRaw": 1100,
+   "yRaw": 335,
+   "xPercent": 71.61458333,
+   "yPercent": 21.80989583
+ },
+ {
+   "name": "Far Southwest Camp",
+   "type": "MinorCamp",
+   "xRaw": 311,
+   "yRaw": 1098,
+   "xPercent": 20.24739583,
+   "yPercent": 71.484375
+ },
+ {
+   "name": "Lake",
+   "type": "MinorCamp",
+   "xRaw": 695,
+   "yRaw": 1076,
+   "xPercent": 45.24739583,
+   "yPercent": 70.05208333
+ },
+ {
+   "name": "Stormhill South of Gate Camp",
+   "type": "MinorCamp",
+   "xRaw": 318,
+   "yRaw": 863,
+   "xPercent": 20.703125,
+   "yPercent": 56.18489583
+ },
+ {
+   "name": "Above Stormhill Tunnel Entrance Camp",
+   "type": "MinorCamp",
+   "xRaw": 556,
+   "yRaw": 599,
+   "xPercent": 36.19791667,
+   "yPercent": 38.99739583
+ },
+ {
+   "name": "West of Warmaster's Shack Camp",
+   "type": "MinorCamp",
+   "xRaw": 355,
+   "yRaw": 546,
+   "xPercent": 23.11197917,
+   "yPercent": 35.546875
+ },
+ {
+   "name": "Southeast of Lake Camp",
+   "type": "MinorCamp",
+   "xRaw": 873,
+   "yRaw": 1230,
+   "xPercent": 56.8359375,
+   "yPercent": 80.078125
+ },
+ {
+   "name": "East of Cavalry Bridge Camp",
+   "type": "MinorCamp",
+   "xRaw": 843,
+   "yRaw": 979,
+   "xPercent": 54.8828125,
+   "yPercent": 63.73697917
+ },
+ {
+   "name": "Minor Erdtree North",
+   "type": "MinorCamp",
+   "xRaw": 1238,
+   "yRaw": 893,
+   "xPercent": 80.59895833,
+   "yPercent": 58.13802083
+ },
+ {
+   "name": "Below Summonwater Hawk Camp",
+   "type": "MinorCamp",
+   "xRaw": 1066,
+   "yRaw": 562,
+   "xPercent": 69.40104167,
+   "yPercent": 36.58854167
+ },
+ {
+   "name": "Third Church",
+   "type": "MinorCamp",
+   "xRaw": 1196,
+   "yRaw": 548,
+   "xPercent": 77.86458333,
+   "yPercent": 35.67708333
+ },
+ {
+   "name": "Northeast of Saintsbridge Camp",
+   "type": "MinorCamp",
+   "xRaw": 823,
+   "yRaw": 345,
+   "xPercent": 53.58072917,
+   "yPercent": 22.4609375
+ },
+ {
+   "name": "Northwest of Lake",
+   "type": "Evergaol",
+   "xRaw": 532,
+   "yRaw": 968,
+   "xPercent": 34.63541667,
+   "yPercent": 63.02083333
+ },
+ {
+   "name": "Murkwater Terminus",
+   "type": "Evergaol",
+   "xRaw": 684,
+   "yRaw": 586,
+   "xPercent": 44.53125,
+   "yPercent": 38.15104167
+ },
+ {
+   "name": "Stormhill",
+   "type": "Evergaol",
+   "xRaw": 257,
+   "yRaw": 488,
+   "xPercent": 16.73177083,
+   "yPercent": 31.77083333
+ },
+ {
+   "name": "Highroad",
+   "type": "Evergaol",
+   "xRaw": 740,
+   "yRaw": 301,
+   "xPercent": 48.17708333,
+   "yPercent": 19.59635417
+ },
+ {
+   "name": "East of Lake",
+   "type": "Evergaol",
+   "xRaw": 954,
+   "yRaw": 1177,
+   "xPercent": 62.109375,
+   "yPercent": 76.62760417
+ },
+ {
+   "name": "Mistwood",
+   "type": "Evergaol",
+   "xRaw": 1214,
+   "yRaw": 748,
+   "xPercent": 79.03645833,
+   "yPercent": 48.69791667
+ },
+ {
+   "name": "Northeast Tunnel Entrance",
+   "type": "Evergaol",
+   "xRaw": 968,
+   "yRaw": 557,
+   "xPercent": 63.02083333,
+   "yPercent": 36.26302083
+ },
+ {
+   "name": "Far Southwest of Lake",
+   "type": "FieldBoss",
+   "xRaw": 475,
+   "yRaw": 1263,
+   "xPercent": 30.92447917,
+   "yPercent": 82.2265625
+ },
+ {
+   "name": "Lake Boss",
+   "type": "FieldBoss",
+   "xRaw": 664,
+   "yRaw": 1096,
+   "xPercent": 43.22916667,
+   "yPercent": 71.35416667
+ },
+ {
+   "name": "North of Stormhill Tunnel Entrance",
+   "type": "FieldBoss",
+   "xRaw": 478,
+   "yRaw": 575,
+   "xPercent": 31.11979167,
+   "yPercent": 37.43489583
+ },
+ {
+   "name": "North of Murkwater Terminus",
+   "type": "FieldBoss",
+   "xRaw": 723,
+   "yRaw": 553,
+   "xPercent": 47.0703125,
+   "yPercent": 36.00260417
+ },
+ {
+   "name": "Stormhill Spectral Hawk",
+   "type": "FieldBoss",
+   "xRaw": 514,
+   "yRaw": 364,
+   "xPercent": 33.46354167,
+   "yPercent": 23.69791667
+ },
+ {
+   "name": "Northwest Stormhill Cliffside",
+   "type": "FieldBoss",
+   "xRaw": 452,
+   "yRaw": 295,
+   "xPercent": 29.42708333,
+   "yPercent": 19.20572917
+ },
+ {
+   "name": "Mistwood Spectral Hawk",
+   "type": "FieldBoss",
+   "xRaw": 1047,
+   "yRaw": 1198,
+   "xPercent": 68.1640625,
+   "yPercent": 77.99479167
+ },
+ {
+   "name": "North Mistwood",
+   "type": "FieldBoss",
+   "xRaw": 1172,
+   "yRaw": 777,
+   "xPercent": 76.30208333,
+   "yPercent": 50.5859375
+ },
+ {
+   "name": "East of Murkwater Terminus",
+   "type": "FieldBoss",
+   "xRaw": 844,
+   "yRaw": 585,
+   "xPercent": 54.94791667,
+   "yPercent": 38.0859375
+ },
+ {
+   "name": "Northwest of Summonwater",
+   "type": "FieldBoss",
+   "xRaw": 973,
+   "yRaw": 333,
+   "xPercent": 63.34635417,
+   "yPercent": 21.6796875
+ },
+ {
+   "name": "Rotted Woods Southwest",
+   "type": "FieldBoss",
+   "xRaw": 993,
+   "yRaw": 1140,
+   "xPercent": 64.6484375,
+   "yPercent": 74.21875
+ },
+ {
+   "name": "Rotted Woods Southeast",
+   "type": "FieldBoss",
+   "xRaw": 1203,
+   "yRaw": 1060,
+   "xPercent": 78.3203125,
+   "yPercent": 69.01041667
+ },
+ {
+   "name": "Rotted Woods Center West",
+   "type": "FieldBoss",
+   "xRaw": 928,
+   "yRaw": 954,
+   "xPercent": 60.41666667,
+   "yPercent": 62.109375
+ },
+ {
+   "name": "Rotted Woods Center East",
+   "type": "FieldBoss",
+   "xRaw": 1109,
+   "yRaw": 979,
+   "xPercent": 72.20052083,
+   "yPercent": 63.73697917
+ },
+ {
+   "name": "Rotted Woods Far Northwest",
+   "type": "FieldBoss",
+   "xRaw": 880,
+   "yRaw": 868,
+   "xPercent": 57.29166667,
+   "yPercent": 56.51041667
+ },
+ {
+   "name": "Rotted Woods Northwest",
+   "type": "FieldBoss",
+   "xRaw": 966,
+   "yRaw": 857,
+   "xPercent": 62.890625,
+   "yPercent": 55.79427083
+ },
+ {
+   "name": "Rotted Woods Northeast",
+   "type": "FieldBoss",
+   "xRaw": 1175,
+   "yRaw": 922,
+   "xPercent": 76.49739583,
+   "yPercent": 60.02604167
+ },
+ {
+   "name": "Rotted Woods Far Northeast",
+   "type": "FieldBoss",
+   "xRaw": 1199,
+   "yRaw": 850,
+   "xPercent": 78.05989583,
+   "yPercent": 55.33854167
+ },
+ {
+   "name": "Castle",
+   "type": "Castle",
+   "xRaw": 718,
+   "yRaw": 832,
+   "xPercent": 46.74479167,
+   "yPercent": 54.16666667
+ },
+ {
+   "name": "Rot Blessing Northeast",
+   "type": "RotBlessing",
+   "xRaw": 1249,
+   "yRaw": 949,
+   "xPercent": 81.31510417,
+   "yPercent": 61.78385417
+ },
+ {
+   "name": "Rot Blessing Southwest",
+   "type": "RotBlessing",
+   "xRaw": 994,
+   "yRaw": 1207,
+   "xPercent": 64.71354167,
+   "yPercent": 78.58072917
+ },
+ {
+   "name": "Rot Blessing West",
+   "type": "RotBlessing",
+   "xRaw": 870,
+   "yRaw": 1023,
+   "xPercent": 56.640625,
+   "yPercent": 66.6015625
+ },
+ {
+   "name": "Frenzy Tower South",
+   "type": "FrenzyTower",
+   "xRaw": 808,
+   "yRaw": 1052,
+   "xPercent": 52.60416667,
+   "yPercent": 68.48958333
+ },
+ {
+   "name": "Frenzy Tower North",
+   "type": "FrenzyTower",
+   "xRaw": 771,
+   "yRaw": 553,
+   "xPercent": 50.1953125,
+   "yPercent": 36.00260417
+ }
+]

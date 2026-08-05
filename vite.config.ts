@@ -39,8 +39,9 @@ export default defineConfig(({ command, mode }) => { return {
     ],
     resolve: {
         alias: {
-            "@": fileURLToPath(new URL("./src", import.meta.url)),
-            "@c": fileURLToPath(new URL("./src/components", import.meta.url)),
+            "@": path.resolve(__dirname, './src'),
+            "@c": path.resolve(__dirname, './src/components'),
+            "@m": path.resolve(__dirname, './src/modules'),
         },
     },
     build: {

@@ -12,7 +12,8 @@
         "lib": ["ESNext", "DOM"],
         "paths": {
             "@/*": ["./src/*"],
-            "@c/*": ["./src/components/*"]
+            "@c/*": ["./src/components/*"],
+            "@m/*": ["./src/modules/*"],
         }
     }
 }

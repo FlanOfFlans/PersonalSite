@@ -10,3 +10,4 @@ import Spread from "../components/Spread.vue"
 </script>
 <style lang="scss" scoped>
 </style>
+

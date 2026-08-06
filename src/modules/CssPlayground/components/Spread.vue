@@ -39,7 +39,6 @@ onMounted(() => {
 
         const frame = Math.floor(performance.now() / RIPPLE_FRAME_MS) - begin_frame;
         const travel = frame * TRAVEL_PER_FRAME;
-        const nonesuch = nope;
 
         ctx.clearRect(0, 0, pxW, pxH);
         ctx.arc(centerX, centerY, travel, 0, Math.PI * 2);
